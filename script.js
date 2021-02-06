@@ -35,5 +35,5 @@ window.onload = function() {
 
 function rateChanger(){
     var rate = document.getElementById("rate").value;
-    document.getElementById("intrate").textContent = rate;
+    document.getElementById("intrate").textContent = rate + "%";
 }
