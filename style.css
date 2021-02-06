@@ -2,20 +2,34 @@ body {
     background-color:black; 
     font-family:arial; 
     color: white;
-    }
+}
 
 h1{
     color:grey; 
     font-family:verdana;
-    }
+}
 
 .maindiv{
     background-color: white; 
     color:black; 
-    width:300px; 
+    width:500px; 
     padding:20px;
-    border:25px; 
-    align: center;
-    }
+    border-radius:25px; 
+    align-content: center;
+}
 
+/*aligning input*/
 
+.subdiv{
+    padding-left:80px;
+}
+/* aligning input boxes */
+#principal{
+    margin-left:60px;
+}
+#rate{
+    margin-left:24px;
+}
+#years{
+    margin-left:29px;
+}
